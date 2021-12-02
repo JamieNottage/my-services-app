@@ -20,7 +20,7 @@ export class AppComponent {
     console.log('AppComponent Loaded...');
     this.myservice = service;
     this.logging = logging;
-    this.logging.greeting('Root Component');
+    // this.logging.greeting('Root Component');
   }
 
   callIncrement() {
